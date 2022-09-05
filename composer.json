@@ -1,0 +1,26 @@
+{
+    "name": "gourav/contact",
+    "description": "This will sent email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gourav\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gouravChoudhary96",
+            "email": "gourav.kumar@droom.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gourav\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
